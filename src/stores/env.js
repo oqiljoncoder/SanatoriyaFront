@@ -2,7 +2,7 @@
 import {defineStore} from "pinia";
 
 export const useEnv = defineStore('env', () => {
-    const url = 'https://api.sangardaksanatoriy.uz';
+    const url = 'YOUR_URL';
 
     return {url: url}
 })
